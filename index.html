@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="row">
+
+        <form action="" id="formulario" class="form">
+            <h1 id="title-form">Formulario de productos</h1>
+            
+                <img class="img" src="./assets/img/amd.png" alt="">
+            
+            <label id="text-1" for="">Cantidad:</label>
+            <input id="cantidad" type="number">
+
+            <label id="color" for="">Color:</label>
+            <select name="" id="opcion">
+                <option value="0">Elija un color</option>
+                <option value="negro">Negro</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+            </select>
+            <label for="">Precio: 400.000</label> <input type="hidden" name="" id="valorP" value="400000">
+            <button type="button" class="btn" id="btncal">Calcular</button>
+        </form>
+        <section class="section" id="template-color">
+            <div class="card">
+                <h2 class="title-trans">Transacción</h2>
+                <h3 class="data-total">Total:</h3>
+                <h3 class="text-cantidad">Cantidad:</h3>
+            </div>
+        </section>
+        
+    </main>
+    <script type="module" src="./dist/main.js"></script>
+</body>
+
+</html>
