@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-attachment: fixed;
+    display: flex;
+    background-color: #84A63C;
+}
+
+.row{
+display: flex;
+display: inline;
+}
+/* Formulario */
+.form{
+    width: 40%;
+    height: auto;
+    margin: 5% auto;
+    border-radius: 10px;
+    border: 2px solid #798C4F;
+    background-color: #84A63C;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.form > input,label,button,select{
+    display: inline-block;
+    width: 80%;
+    margin: 3% 0;
+    font-size: 20px;
+}
+
+.form > input{
+    outline: none;
+}
+
+.form > label{
+    text-align: left;
+    padding: 5px;
+}
+
+.btn{
+    width: 50%;
+    border-radius: 6px;
+    background-color: #D9910D;
+}
+
+.img{
+    width: 80%;
+}
+
+
+/* Transacción */
+.section{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    left: 70%;
+    bottom: 10%;
+}
+
+.circle-color{
+    position: absolute;
+    right: 10%;
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    border-radius: 50%;
+}
