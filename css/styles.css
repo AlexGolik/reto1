@@ -12,6 +12,7 @@ body{
 
 .row{
 display: flex;
+display: inline;
 }
 
 /* Formulario */
