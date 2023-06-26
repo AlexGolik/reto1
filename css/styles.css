@@ -13,7 +13,7 @@ body{
 
 .row{
 display: flex;
-display: inline;
+display: block;
 }
 /* Formulario */
 .form{
